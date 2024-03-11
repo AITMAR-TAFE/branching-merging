@@ -62,9 +62,8 @@ git remote -v
 
 ### Why are pull requests called "Pull Requests"? (wrong answer)
 
-Pull requests are so named basically because you are asking to _pull_ changes from a remote to your local repository. And that's because you have to ask permission to copy changes out of the repository, even if you have read access to that repository.
+Pull requests are so named  because you are requesting the target repository to grab (pull) your changes to the main repository. 
 
-<!--TODO: This answer is SO wrong, I think we need to fix it! -->
 
 ### Create a local branch
 
@@ -89,6 +88,9 @@ git commit -am "Give correct reason to why PRs are named that"
 ```
 
 3. Check on GitHub whether the branch exists there or not. Does it? Why or why not?
+
+No it doesn't - I don't know why :(
+   
 4. You may think it is because you haven't pushed to the branch yet, so go ahead and try to push the branch to the remote repository.
 
 ```bash
